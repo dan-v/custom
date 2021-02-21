@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="dan-v" fetch="https://github.com/dan-v/" revision="11.0" />
-  <remote name="grapheneos" fetch="https://github.com/grapheneos/" revision="11" />
 
   <!-- this custom repo -->
   <project path="vendor/custom" name="custom" remote="dan-v" />
 
   <!-- microg -->
   <project path="platform/prebuilts/microg" name="microg" remote="rattlesnakeos" clone-depth="1" />
-
-  <!-- vanadium prebuilt -->
-  <!-- <project path="external/vanadium" name="platform_external_vanadium" remote="grapheneos" clone-depth="1" />
-  <remove-project name="platform/external/chromium-webview" />
-  <remove-project name="platform/packages/apps/Browser2" />
-  <remove-project name="platform/packages/apps/QuickSearchBox" /> -->
 
 </manifest>

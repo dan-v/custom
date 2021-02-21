@@ -12,10 +12,8 @@
 -->
 
 <webviewproviders>
+
     <!-- Chromium -->
     <webviewprovider description="Chromium WebView" packageName="org.chromium.webview" availableByDefault="true" />
-
-    <!-- Vanadium -->
-    <webviewprovider description="Vanadium WebView" packageName="app.vanadium.webview" availableByDefault="true" />
 
 </webviewproviders>

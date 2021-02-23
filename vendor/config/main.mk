@@ -7,6 +7,10 @@ PRODUCT_PACKAGES += \
     FakeStore \
     com.google.android.maps.jar
 
+# Seedvault
+PRODUCT_PACKAGES += \
+    Seedvault
+
 # Fix for Google Camera
 PRODUCT_COPY_FILES += \
 	vendor/custom/prebuilt/google_experience.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/google_experience.xml
